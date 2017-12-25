@@ -1,0 +1,146 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.a24073.loginsample.LoginActivity"
+    android:background="#f7f7f7">
+
+    <com.dx.dxloadingbutton.lib.LoadingButton
+        android:id="@+id/loading_btn"
+        android:layout_gravity="center"
+        android:layout_width="228dp"
+        app:lb_btnColor="#00645c"
+        android:layout_height="wrap_content"
+        app:lb_resetAfterFailed="true"
+        app:lb_btnRippleColor="#000000"
+        app:lb_btnText="登录"
+        android:layout_marginTop="210dp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="365dp"
+        android:src="@mipmap/login"
+        android:layout_gravity="top" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_headportrait1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:id="@+id/imageView2" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="273dp"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:paddingLeft="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:src="@mipmap/id"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:orientation="vertical"
+                android:paddingLeft="10dp">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:inputType="textPersonName"
+                    android:textColor="#00645c"
+                    android:ems="10"
+                    android:background="@null"
+                    android:id="@+id/editText"
+                    android:hint="途聆号"
+                    android:textColorHint="#cdcdcd"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#eeeeee"
+            android:layout_marginTop="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:src="@mipmap/pw"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:orientation="vertical"
+                android:paddingLeft="10dp">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:inputType="textPassword"
+                    android:ems="10"
+                    android:background="@null"
+                    android:hint="密码"
+                    android:textColorHint="#cdcdcd"
+                    android:id="@+id/editText2" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="忘记密码"
+                android:layout_gravity="center"
+                android:textColor="#cdcdcd"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#eeeeee"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注册"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="110dp"/>
+        <View
+            android:layout_width="50dp"
+            android:layout_height="1dp"
+            android:background="#eeeeee"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="2dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="青芒校园FM"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="205dp"/>
+
+</FrameLayout>
