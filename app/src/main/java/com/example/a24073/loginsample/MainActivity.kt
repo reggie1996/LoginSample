@@ -3,6 +3,7 @@ package com.example.a24073.loginsample
 import android.app.Activity
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.TextView
 
 class MainActivity : Activity() {
 
@@ -10,8 +11,7 @@ class MainActivity : Activity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
     }
-
-
 
 }
